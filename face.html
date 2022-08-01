@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: poppins , sans-serif;
+		}
+		body{
+			background: lightgray;
+		}
+		nav{
+			display: flex;
+			align-content: center;
+			justify-content: space-between;
+			background: #1876f2;
+			padding: 5px 5%;
+		}
+		.logo{
+			width: 160px;
+			margin-right: 45px;
+
+		}
+		.nav-left, .nav-right{
+			display: flex;
+			align-items: center;
+		}
+		.nav-left ul li{
+			list-style: none;
+			display: inline-block;
+		}
+		.nav-left ul li img {
+			width: 28px;
+			margin: 0 16px;
+		}
+		.nav-u-i img {
+			width: 40px;
+			border-radius: 50% ;
+			cursor: pointer;
+
+		}
+		.nav-u-i {
+		 margin-left: 30px;
+
+		}
+
+         
+        .search-box{
+        	background: #efefef;
+        	width: 350px;
+        	border-radius: 20px;
+        	display: flex;
+        	align-items: center;
+        	padding: 0 15px;
+        }
+        .search-box img {
+        	width: 18pxs;
+        }
+        .search-box input{
+        	width: 100%;
+        	background: transparent;
+        	padding: 10px;
+        	outline: none;
+        	border: 0;
+        }
+        .nav-u-i .online{
+        	position: relative;
+
+        }
+        .nav-u-i .online::afte{
+        	content: "";
+        	width: 7px;
+        	height: 7px;
+        	border: 2 px solid #fff;
+        	border-radius: 50%;
+        	background: #41db51;
+        	position: absolute;
+        	top: 0;
+        	right: 0;
+        }
+
+
+
+	</style>
+</head>
+<body>
+
+	<nav>
+		<div class="nav-left">
+			<img src="images/logo.png" class="logo">
+			<ul>
+				<li><img src="images/notification.png"></li>
+				<li><img src="images/inbox.png"></li>
+				<li><img src="images/video.png"></li>
+			</ul>
+
+		</div>
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="images/search.png">
+					<input type="text" placeholder="search" name="">
+
+				</div>
+				<div class="nav-u-i ">
+					<div class="online">
+					<img src="images/p1.jpg.">
+				</div>
+				</div>
+			</div>
+	</nav>
+
+
+
+</body>
+</html>
